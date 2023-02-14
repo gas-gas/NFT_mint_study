@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     'function totalSupply() public view virtual override returns (uint256)',
     "function mint(uint _mintAmount) public payable",
   ]
-  const contractAddress = "0x9ee6c48d1984fA92dE6c0339741f384E62Ea114a"
+  const contractAddress = "0x07a423709C03909d4f4DaD5a245520B7530Cde25"
   useEffect(() => {
     const setSaleInfo = async() =>{
       const provider = await new ethers.providers.Web3Provider((window as any).ethereum);
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
               symbol: 'ETH',
               decimals: 5,
             },
-            rpcUrls: ['https://goerli.infura.io/v3/20cd5bade2c0407da65c6811cc2a1b37'],
+            rpcUrls: ['https://goerli.infura.io/v3/5d717ba39288465a920493676420c9da'],
           }],
         });
         console.log('try');
