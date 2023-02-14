@@ -105,11 +105,11 @@ const Home: NextPage = () => {
     };
     return <>
     <div className="bg-black pb-16 flex flex-wrap buttom justify-center">
-      <div className='px-8 pt-8 lg:px-28 lg:py-28'>
+      <div className='px-8 pt-8 lg:px-15 lg:py-15'>
         <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
       </div>
       <div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black text-center border-[#FFFFFF] bg-center bg-contain bg-no-repeat">
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">ETH MASKS NFT</h1>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">ETH MASKS</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']"> {mintNum} / 5000</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-8 text-white font-['Impact']">3</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#99CDDB] font-['Impact'] ">MAX</a><br/>
         
